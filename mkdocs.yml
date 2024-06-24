@@ -1,0 +1,14 @@
+site_name: PahVentureLabs
+site_description: Test Documentation
+docs_dir: docs # indispensable or readthedocs will fail
+# theme: material # you may want to try windmill?
+theme: material
+
+nav:
+  - Main: index.md
+  - Second: about.md
+  - Infra: infra.md
+
+plugins:
+  - search
+  - mermaid2
